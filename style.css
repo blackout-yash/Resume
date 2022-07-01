@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Smooch', cursive;
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.body_header{
+    height: 65vh;
+    opacity: 0.8;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Image/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal_list{
+    list-style: none;
+}
+
+.horizontal_list li{
+    display: inline-block;
+    margin: 10px 10px 8px 0;
+    padding: 0 10px 0 10px;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+
+.horizontal_list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_menu{
+    transition: color 0.4s, border-bottom 4s;
+}
+
+.nav_menu li a:hover{
+    color: darkgrey;
+    border-bottom: 1px solid darkgrey;
+}
+
+#social{
+    margin-top: 12vh;
+}
+
+#my_name{
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.1rem;
+
+    text-shadow: 2px 2px 2px black;
+}
+
+.social_icons li a img{
+    margin-top: 15px;
+    height: 80px;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 50%;
+
+    transition: all 0.3s;
+}
+
+.social_icons li a img:hover{
+    box-shadow: 0 0 6px 4px #283747;
+}
+
+
+/* Main */
+#about{
+    width: 100%;
+    height: auto;
+}
+
+#my_image{
+    width: 14rem;
+    height: 14rem;
+    display: block;
+    margin: auto;
+
+    border-radius: 50%;
+    margin-top: -70px;
+    position: relative;
+    box-shadow: 1px 1px 10px 2px #2E4053;
+}
+
+#about p{
+    margin: 2rem 16rem 0 16rem;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    color: #1B2631;
+    text-align: justify;
+}
+
+#about p strong{
+    color: #2980B9;
+}
